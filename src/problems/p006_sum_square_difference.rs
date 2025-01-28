@@ -23,5 +23,5 @@ pub fn solve(end: Option<u64>) {
     let squared_sum = sum * sum;
     let sum_of_squares = (1..end + 1).fold(0, |acc, x| acc + x * x);
     let squared_sum_minus_sum_of_squares = squared_sum - sum_of_squares;
-    println!("{squared_sum_minus_sum_of_squares}");
+    println!("Squared Sum Minus Sum of Squares {squared_sum_minus_sum_of_squares}");
 }

@@ -1,4 +1,4 @@
-use problems::{p1, p2, p3, p4, p5, p6, p7};
+use problems::{p1, p2, p3, p4, p5, p6, p7, p8};
 
 fn main() {
     p1(None);
@@ -8,4 +8,5 @@ fn main() {
     p5(None);
     p6(None);
     p7(None);
+    p8(None);
 }
