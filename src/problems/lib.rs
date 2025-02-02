@@ -7,6 +7,7 @@ pub mod p006_sum_square_difference;
 pub mod p007_10001st_prime;
 pub mod p008_largest_product_in_a_series;
 pub mod p009_special_pythagorean_triplet;
+pub mod p010_summation_of_primes;
 
 pub use p001_multiples_of_3_or_5::solve as p1;
 pub use p002_even_fibonacci_numbers::solve as p2;
@@ -17,3 +18,4 @@ pub use p006_sum_square_difference::solve as p6;
 pub use p007_10001st_prime::solve as p7;
 pub use p008_largest_product_in_a_series::solve as p8;
 pub use p009_special_pythagorean_triplet::solve as p9;
+pub use p010_summation_of_primes::solve as p10;
